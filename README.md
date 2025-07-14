@@ -3,7 +3,6 @@
 This project showcases automated end-to-end testing of [CommitQuality.com](https://commitquality.com/) using **Playwright** with the **Page Object Model (POM)** design pattern in **JavaScript**. The test suite covers key user journeys including **Login**, **My Account**, and **Product Page** validation.
 
 ---
-
 ## 🚀 Project Overview
 
 - 🔧 **Framework**: [Playwright](https://playwright.dev/)
@@ -15,15 +14,6 @@ This project showcases automated end-to-end testing of [CommitQuality.com](https
   - Product page interactions and assertions
 
 ---
-
-## 🔍 Pages Implemented (POM)
-
-- `loginPage.js`: Handles login form interactions, field validations, and error states.
-- `accountPage.js`: Validates user account data, profile details, and UI visibility.
-- `productPage.js`: Interacts with product listings, tests filtering, sorting, and detail views.
-
----
-
 ## 🧪 Test Scenarios
 
 - **Login Page Tests:** Verify successful and unsuccessful login attempts.
@@ -37,22 +27,19 @@ This project showcases automated end-to-end testing of [CommitQuality.com](https
 ## ▶️ Getting Started
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/Varsha-aithal/Playwright-using-JavaScript.git
 
 ### 2. Install Dependencies
-```bash
 npm install
 
 ### 3. Run Tests
-```bash
 npx playwright test
 
 ### 4. View test report
-```bash
 npx playwright show-report
 
 ---
+
 ## 🤝 Contributing
 
 If you find any bugs or have suggestions for improvements, **please open an issue** or **submit a pull request**.  
